@@ -10,43 +10,72 @@
 </head>
 
 <body>
-  <nav class="green lighten-4">
+  <nav class="hunter">
     <div class="nav-wrapper">
       <a href="#!" class="sidenav-trigger" data-target="mobile-nav">
-        <i class="material-icons grey-text text-darken-3">menu</i>
+        <i class="material-icons copper">menu</i>
       </a>
 
-      <a href="index.html" class="brand-logo grey-text text-darken-3">Rachael Charewicz</a>
+      <a href="index.html" class="name copper">Rachael Charewicz</a>
 
       <ul class="right hide-on-med-and-down ">
-        <li><a href="#" class="grey-text text-darken-3">Home</a></li>
-        <li><a href="#" class="grey-text text-darken-3">Portfolio</a></li>
-        <li><a href="#" class="grey-text text-darken-3">Contact</a></li>
+        <li><a href="#" class="copper">Home</a></li>
+        <li><a href="#" class="copper">Portfolio</a></li>
+        <li><a href="#" class="copper">Contact</a></li>
       </ul>
 
     </div>
   </nav>
 
   <ul class="sidenav" id="mobile-nav">
-    <li><a href="#" class="grey-text text-darken-3">Home</a></li>
-    <li><a href="#" class="grey-text text-darken-3">Portfolio</a></li>
-    <li><a href="#" class="grey-text text-darken-3">Contact</a></li>
+    <li><a href="#" class="copper">Home</a></li>
+    <li><a href="#" class="copper">Portfolio</a></li>
+    <li><a href="#" class="copper">Contact</a></li>
   </ul>
 
   <div class="parallax-container">
-    <div class="parallax"><img src="./assets/images/prism.png"></div>
+    <div class="parallax">
+      <img src="./assets/images/whitey_@2X.png">
+    </div>
   </div>
-  <div class="section white">
-    <div class="row container">
-      <h2 class="header"></h2>
-      <p class="grey-text text-darken-3 lighten-3"></p>
+  <div class="section hunter">
+    <div class="row pl-4 pl-4">
+      <div class="col s12 m3">
+        <h4 class="header copper">About Me</h4>
+        <img class="profile" src="./assets/images/profile_pic_copy.png">
+      </div>
+      <div class="col s12 m3">
+        <p class="copper pt-4">I'm currently enrolled in UNH's Coding Bootcamp, which is a full-stack web development
+          program in Portsmouth, NH. I graduated from Allegheny College in 2017 with a BA in Women's,
+          Gender, and Sexuality Studies and a minor in Classical Studies, then went on to work in
+          marketing and events for a nonprofit animal shelter.</p>
+      </div>
+        <div class="col s12 m3">
+        <p class="copper pt-4">When I decided to make a change in my career, I chose to pursue coding because it
+          encompasses
+          the dichotomies of my ideal work environment: creativity and logic, and collaboration and
+          self-reliance. The marriage of constant problem solving and being able to create and improve
+          experiences and tools makes coding an engrossing subject for me. </p>
+      </div>
+      <div class="col s12 m3">
+        <p class="copper pt-4">More info</p>
+        </div>
+      
     </div>
   </div>
   <div class="parallax-container">
-    <div class="parallax"><img src="./assets/images/prism.png"></div>
+    <div class="parallax">
+      <img src="./assets/images/whitey_@2X.png">
+    </div>
   </div>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".parallax").parallax();
+    });
+  </script>
 </body>
 
 </html>
