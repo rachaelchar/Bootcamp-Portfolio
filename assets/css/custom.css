@@ -1,3 +1,45 @@
 nav {
   padding-left: 3%;
 }
+
+.parallax-container .parallax img {
+  opacity: .75;
+}
+
+.copper {
+  color: #cf9789;
+}
+
+.hunter {
+  background-color: #455435;
+}
+
+.grey-accent {
+  color: #8e8483;
+}
+
+.name {
+  font-size: x-large;
+  font-family: sans-serif;
+}
+
+.parallax-container {
+  height: 200px;
+}
+
+.profile {
+  height: 200px;
+  width: 200px;
+}
+
+.pl-4 {
+  padding-left: 5%;
+}
+
+.pt-4 {
+  padding-top: 25%;
+}
+
+p {
+  padding-right: 4%;
+}
