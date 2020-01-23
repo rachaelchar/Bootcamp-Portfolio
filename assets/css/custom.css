@@ -1,3 +1,7 @@
+body {
+  min-height: 200vh;
+}
+
 nav {
   padding-left: 3%;
 }
@@ -12,10 +16,6 @@ nav {
 
 .hunter {
   background-color: #455435;
-}
-
-.grey-accent {
-  color: #8e8483;
 }
 
 .name {
