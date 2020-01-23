@@ -6,8 +6,8 @@ nav {
   padding-left: 3%;
 }
 
-.parallax-container .parallax img {
-  opacity: .75;
+#footpath {
+  opacity: 0.5;
 }
 
 .copper {
@@ -24,12 +24,13 @@ nav {
 }
 
 .parallax-container {
-  height: 200px;
+  height: 350px;
 }
 
 .profile {
   height: 200px;
   width: 200px;
+  border-radius: 50%;
 }
 
 .pl-4 {
