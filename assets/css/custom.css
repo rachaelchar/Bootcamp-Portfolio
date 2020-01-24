@@ -1,5 +1,10 @@
 body {
   min-height: 200vh;
+  font: "Roboto", "Helvetica", sans-serif;
+}
+
+.spread {
+  letter-spacing: 2px;
 }
 
 nav {
