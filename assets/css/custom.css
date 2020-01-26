@@ -46,6 +46,10 @@ nav {
   padding-top: 25%;
 }
 
+.pt-1 {
+  padding-top: 3%;
+}
+
 p {
   padding-right: 4%;
 }
@@ -54,3 +58,4 @@ p {
   height: 30%;
   width: 50%;
 }
+
