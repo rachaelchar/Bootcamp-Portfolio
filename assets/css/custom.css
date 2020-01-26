@@ -49,3 +49,8 @@ nav {
 p {
   padding-right: 4%;
 }
+
+.card-large {
+  height: 30%;
+  width: 50%;
+}
