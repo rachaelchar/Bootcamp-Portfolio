@@ -1,14 +1,19 @@
 $(document).ready(function () {
   $(".parallax").parallax();
-
-  var emsImg = $("#ems-img");
-
 });
 
-function hover(emsImg) {
-  emsImg.setAttribute("src", "assets/images/EMS_register.png");
+var emsImg = $("#ems-img");
+var socialniteImg = $("#socialnite-img");
+
+// define hover functions
+function hover(element, url) {
+  element.setAttribute("src", url);
 };
 
-function unhover(emsImg) {
-  emsImg.setAttribute("src", "assets/images/EMS_index.png");
+function unhover(element, url) {
+  element.setAttribute("src", url);
 };
+
+
+
+
