@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/custom.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <nav class="hunter">
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo"><span class="logo hunter-text">Rachael Charewicz</span></a>
+      <a href="#" class="sidenav-trigger" data-target="mobile-demo">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html" class="hunter-text">Home</a></li>
+        <li><a href="portfolio.html" class="hunter-text">Portfolio</a></li>
+        <li><a target="_blank" href="assets/images/Resume_Charewicz.pdf" class="hunter-text">Resume</a></li>
+        <li><a href="contact.html" class="hunter-text">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#" class="hunter-text">Home</a></li>
+    <li><a href="#" class="hunter-text">Portfolio</a></li>
+    <li><a target="_blank" href="assets/images/Resume_Charewicz.pdf" class="hunter-text">Resume</a></li>
+    <li><a href="#" class="hunter-text">Contact</a></li>
+  </ul>
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img id="footpath" src="assets/images/white-computer-keyboard-163117.jpg">
+    </div>
+  </div>
+  <div class="section white">
+    <div class="center-align mb-4">
+      <h4 class="header hunter-text">Contact Me</h4>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col m10 offset-m1 s12">
+        <div class="row">
+          <form class="col m8 offset-m2 s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="name" type="text">
+                <label for="name">Name</label>
+              </div>
+              <div class="input-field col s12">
+                <input id="email" type="email" class="form-input">
+                <label for="email">Email</label>
+              </div>
+              <div class="input-field col s12">
+                <textarea id="message" class="materialize-textarea"></textarea>
+                <label for="message">Message</label>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+              <div class="col m12">
+                <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="button"
+                    name="action">Send Message</button></p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://materializecss.com/templates/starter-template/js/init.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
