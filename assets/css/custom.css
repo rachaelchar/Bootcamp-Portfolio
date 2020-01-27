@@ -55,7 +55,12 @@ p {
 }
 
 .card-large {
-  height: 30%;
-  width: 50%;
+  height: 400px;
+  width: auto;
+}
+
+.row {
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
