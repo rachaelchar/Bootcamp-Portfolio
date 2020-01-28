@@ -84,8 +84,9 @@ p {
 }
 
 .card-large {
-  height: 400px;
+  min-height: 400px;
   width: auto;
+
 }
 
 .row {
@@ -107,6 +108,7 @@ p {
   margin-right: 20px;
   color: #455435;
 }
+
 
 
 
