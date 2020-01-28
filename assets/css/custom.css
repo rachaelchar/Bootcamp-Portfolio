@@ -48,7 +48,7 @@ nav {
   .parallax-container {
     height: 150px;
   }
-  span {
+  .name-logo {
     font-size: large;
     }
 }
