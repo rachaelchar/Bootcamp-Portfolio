@@ -1,10 +1,13 @@
 # Portfolio
-A personal portfolio including some basic information about me, a page dedicated to recent projects, a link to my resume, and contact information.
+A personal portfolio including some basic information about me, a page dedicated to recent projects, a link to my resume, and contact links. Designed to look great on mobile and desktop.
 
 ## Tools Used
-This website is built with HTML, Materialize CSS, and custom CSS. It was built with a sleek design in mind, and features key design elements such as parallax scrolling and cards.
+This website is designed using Materialize CSS. It was built with a sleek design in mind, and features key design elements such as parallax scrolling and interactive cards.
 
 
+## Mobile View: Parallax Scrolling
+![Home Page](/assets/images/parallaxOnMobile.gif)
 
-## Portfolio Page
+
+## Portfolio Page: Interactive Cards
 ![Portfolio Page gif](/assets/images/portfolioPage.gif)
