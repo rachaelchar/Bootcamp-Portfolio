@@ -23,10 +23,6 @@ nav {
   opacity: 0.5;
 }
 
-.copper {
-  color: #cf9789;
-}
-
 .hunter {
   background-color: #455435;
 }
@@ -45,12 +41,20 @@ nav {
 }
 
 @media only screen and (max-width: 600px) {
+  .s12 {
+    width: 100%;
+  }
   .parallax-container {
     height: 150px;
   }
   .name-logo {
     font-size: large;
-    }
+  }
+}
+
+.mr-0 {
+  margin-right: 0;
+  padding-right: 0;
 }
 
 .profile {
@@ -76,7 +80,7 @@ nav {
 }
 
 .mt-4 {
-  margin-top: 9%;
+  margin-top: 5%;
 }
 
 .ml-4 {
