@@ -121,6 +121,10 @@ p {
   color: #455435;
 }
 
+.font-italic {
+  font-style: italic;
+  color: lightslategray;
+}
 
 
 
